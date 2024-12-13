@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "module": "ES6",
+    "target": "ES6",
+    "moduleResolution": "Node",
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*.js", "src/**/*.jsx", "src/background/background.js", "src/popup/popup.jsx", "src/options/options.jsx", "src/contentScript/contentScript.jsx"],
+  "exclude": ["node_modules"]
+}
